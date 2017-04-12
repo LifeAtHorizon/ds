@@ -45,5 +45,6 @@ HighestFrequencyNumber highfreq = new HighestFrequencyNumber();
 highfreq.sortArray();
 
 highfreq.findHigestFreqNumebr();
+
 }
 }

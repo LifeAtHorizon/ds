@@ -40,25 +40,16 @@ public void addNode(int value){
 public void display(String order){
 	if(order.equals("original")){
 	while(head!=null){
-		System.out.println(head.value);
+		System.out.print(head.value+" ");
 		head = head.next;
 	}
 	}
 	else if(order.equals("reverse")){
 		while(tail!=null){
-			System.out.println(tail.value);
+			System.out.print(tail.value+ " ");
 			tail = tail.previous;
 		}
 	}
 }
 
-public static void main(String[] args){
-	DoubleLinkedListV dl = new DoubleLinkedListV();
-	dl.addNode(2);
-	dl.addNode(5);
-	dl.addNode(6);
-	dl.addNode(7);
-	dl.addNode(8);
-	dl.display("reverse");
-}
 }
