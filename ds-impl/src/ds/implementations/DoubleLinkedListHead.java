@@ -56,6 +56,7 @@ while(temp.next!=null){
 	//Now change the current.next to previouscurrent
 	current.next = previouscurrent;
 	//new current previous still points to the previous current so change it to null
+	
 	current.previous = null;
 }
 head = current;
